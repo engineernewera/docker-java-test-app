@@ -12,7 +12,7 @@ jobs:
       redis:
         image: redis
         options: >-
-          --health-cmd "redis-clis ping"
+          --health-cmd "redis-cli ping"
           --health-interval 5s
           --health-timeout 5s
           --health-retries 3
